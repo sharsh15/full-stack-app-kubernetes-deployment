@@ -147,7 +147,7 @@ Secrets Management: Kubernetes Secret
 
 📸 Screenshots
 
-![CMD-all components](image.png)
+![CMD-all components](getall.png)
 kubectl get all -n chat-app
 
 
