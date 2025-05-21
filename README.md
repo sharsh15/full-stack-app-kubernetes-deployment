@@ -13,15 +13,25 @@ All components are containerized and orchestrated using Kubernetes manifests, wi
 ## 📦 Project Structure
 
 ├── backend-deployment.yml
+
 ├── backend-service.yml
+
 ├── frontend-deployment.yml
+
 ├── frontend-service.yml
+
 ├── mongodb-deployment.yml
+
 ├── mongodb-service.yml
+
 ├── mongodb-pv.yml
+
 ├── mongodb-pvc.yml
+
 ├── namespace.yml
+
 ├── secrets.yml
+
 └── README.md
 
 ## 📊 Architecture Diagram
@@ -49,7 +59,7 @@ Follow the guide for your OS:
 Or use the quick setup (Linux/macOS):
 
 ```bash
-# Download the latest release
+### Download the latest release
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/$(uname | tr '[:upper:]' '[:lower:]')/amd64/kubectl"
 
 # Make it executable
@@ -67,7 +77,7 @@ kubectl version --client
 
 ---
 
-## ⚙️ Setup Instructions
+# ⚙️ Setup Instructions
 =========================================
 Install using the commands below:
 
@@ -145,11 +155,13 @@ Local Cluster: kind
 
 Secrets Management: Kubernetes Secret
 
-📸 Screenshots
+---
+## 📸 Screenshots
 
-![CMD-all components](getall.png)
+![CMD-all-components](D:\Trycath-Devops\Project-2\full-stack_chatApp\getall.pnggetall.png)
+
 kubectl get all -n chat-app
-
+---
 
 📘 Notes
 This project is ideal for:
