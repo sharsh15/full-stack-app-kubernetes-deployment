@@ -13,15 +13,25 @@ All components are containerized and orchestrated using Kubernetes manifests, wi
 ## 📦 Project Structure
 
 ├── backend-deployment.yml
+
 ├── backend-service.yml
+
 ├── frontend-deployment.yml
+
 ├── frontend-service.yml
+
 ├── mongodb-deployment.yml
+
 ├── mongodb-service.yml
+
 ├── mongodb-pv.yml
+
 ├── mongodb-pvc.yml
+
 ├── namespace.yml
+
 ├── secrets.yml
+
 └── README.md
 
 
